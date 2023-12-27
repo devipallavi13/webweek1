@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body bgcolor="aquamarine">
+    <h2>Registration</h2>
+    <form >
+    
+        Username: <input type="text" placeholder="set unique username" required><br><br>
+        Password: <input type="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W)" placeholder="set strong password"required><br><br>
+        Confirm Password: <input type="password" placeholder="type pwd once again" required><br><br>
+        Email: <input type="email" placeholder="enter email"><br><br>
+        Mobile Number: <input type="text"  placeholder="enter mobile number"pattern="[7-9][0-9]{9}" required><br><br>
+        Date of Birth: <input type="date" placeholder="enter DOB" required><br><br>
+        Address: <textarea  required placeholder="enter your address"></textarea><br><br>
+        Gender:
+        <input type="radio"  value="male" required> Male
+        <input type="radio"  value="female" required> Female
+        <input type="radio"  value="other" required> Other<br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
